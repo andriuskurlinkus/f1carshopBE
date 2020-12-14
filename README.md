@@ -1,6 +1,6 @@
 ### TECHNOLOGIES:
 * Java 11
-* Spring frameworK
+* Spring framework
 * MySQL
 * Angular
 * Bootstrap

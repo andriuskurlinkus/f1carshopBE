@@ -19,7 +19,7 @@ public class ProductController {
     public List<Product> getProducts() {
         return (List<Product>) productRepository.findAll();
     }
-    @PostMapping("/users")
+    @PostMapping("/products")
     void addProduct(@RequestBody Product product) {
         productRepository.save(product);
     }
